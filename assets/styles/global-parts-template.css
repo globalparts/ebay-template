@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700);
+
+.gpDescription {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.gpHeader {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.gpHr {
+    border: solid 1px #05022e;
+}
+
+.gpItem {
+    margin: 20px 10px 20px 60px;
+}
+
+.gpItemTitle {
+    font-weight: bold;
+}
+.gpLogo {
+    margin: 0px 10px 0px 10px;
+    width: 229px;
+    height: 79px;
+}
+
+.gpAdditionalInformationRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.gpAdditionalInformationPoint {
+    text-align: center;
+    margin: 5px 10px;
+    line-height: 40px;
+    transition: all .2s;
+    color: #ffffff;
+    background: #a90c11;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a90c11, #a90c11);
+}
+
+.gpAdvantagesHeader {
+    background: linear-gradient(90deg, #05022e, #010c3d);
+    margin-top: 20px;
+}
+
+.gpAdvantagesTitle {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.gpAdvantagesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gpBadge {
+    color: #a90c11;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.gpAdvantageCard {
+    color: #a90c11;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.gpAdvantageIcon {
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+}
+
+.gpAdvantageText {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    line-height: 1;
+    font-weight: 500;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+@media all and (min-width: 0px) {
+    .gpAdvantageCard {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .gpAdvantageCard {
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .gpAdvantageCard {
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .gpAdvantageCard {
+        -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+        max-width: 15%;
+    }
+}
